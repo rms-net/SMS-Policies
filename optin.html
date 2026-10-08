@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RMS SMS Opt-In</title>
+<style>
+body { font-family: Arial, sans-serif; max-width: 700px; margin: 2em auto; padding: 0 1em; line-height: 1.5; }
+label { display: block; margin: 1em 0 0.3em; font-weight: bold; }
+input[type=text], input[type=tel], input[type=email] { width: 100%; padding: 8px; box-sizing: border-box; }
+.consent { margin: 1.5em 0; }
+.consent input { margin-right: 8px; }
+</style>
+</head>
+<body>
+<h1>RMS Text Message Sign-Up</h1>
+<form>
+<label for="name">Name</label>
+<input type="text" id="name" name="name">
+<label for="phone">Mobile phone number</label>
+<input type="tel" id="phone" name="phone">
+<div class="consent">
+<input type="checkbox" id="consent" name="consent">
+<label for="consent" style="display:inline;font-weight:normal;">
+By checking this box and providing my mobile number, I agree to receive service notifications, appointment reminders, and account alerts from RMS via SMS. Message frequency varies, up to 4 messages per month. Message and data rates may apply. Reply STOP to cancel at any time. Reply HELP for help or contact support@rapini.com or 612.217.4767. Mobile opt-in data and consent will not be shared with third parties or affiliates for marketing or promotional purposes. Consent is not a condition of purchase.
+</label>
+</div>
+<p>
+<a href="https://rms-net.github.io/SMS-Policies/terms.html">Terms and Conditions</a> |
+<a href="https://rms-net.github.io/SMS-Policies/privacy.html">Privacy Policy</a>
+</p>
+<button type="button">Subscribe</button>
+</form>
+</body>
+</html>
